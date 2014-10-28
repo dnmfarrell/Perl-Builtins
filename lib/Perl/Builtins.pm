@@ -20,7 +20,11 @@ This module simply returns a list of strings of all the builtin functions in Per
 
 =head2 RATIONALE
 
-I wrote this module because several times I have needed a list of all builtin functions in Perl, and couldn't find an easy way to get it.
+I wrote this module because several times I have needed a list of all builtin functions in Perl, and couldn't find an easy way to get it. Then I found L<B::Keywords>.
+
+=head2 SEE ALSO
+
+L<B::Keywords>
 
 =cut
 
