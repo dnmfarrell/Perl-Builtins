@@ -6,13 +6,10 @@ BEGIN { use_ok 'Perl::Builtins' }
 
 # list context
 ok my @list = Perl::Builtins::list, 'list() in list context';
-is @list, 241, 'list() returns 240 functions';
-is $list[0], 'AUTOLOAD', 'AUTOLOAD is first';
-is $list[240], 'y', 'y is last';
+is @list, 224, 'list() returns 224 functions';
 
 # scalar context
 ok my $list_ref = Perl::Builtins::list, 'list() in scalar context';
-is @$list_ref, 241, 'list() in scalar context returns 240 functions';
-is @$list_ref[0], 'AUTOLOAD', 'AUTOLOAD is first';
-is @$list_ref[240], 'y', 'y is last';
+is @$list_ref, 224, 'list() in scalar context returns 224 functions';
+
 done_testing;

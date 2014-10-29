@@ -1,5 +1,9 @@
 Revision history for Perl::Builtins
 
+0.02    2014-10-29
+        - Changed from static list to Pod::Functions
+        - Updated pod SEE ALSO to include B::Keywords
+
 0.01    2014-10-26
         - Initial release
 
