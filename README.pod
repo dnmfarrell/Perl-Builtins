@@ -8,7 +8,10 @@ Perl::Builtins - A list of all Perl 5 built functions
 
 =head1 VERSION
 
-version 0.01
+version 0.03
+
+=for HTML <a href="https://travis-ci.org/sillymoose/Perl-Builtins"><img src="https://travis-ci.org/sillymoose/Perl-Builtins.svg?branch=master"></a>
+<a href='https://coveralls.io/r/sillymoose/Perl-Builtins'><img src='https://coveralls.io/repos/sillymoose/Perl-Builtins/badge.png' alt='Coverage Status' /></a>
 
 =head2 SYNOPSIS
 
@@ -26,7 +29,15 @@ This module simply returns a list of strings of all the builtin functions in Per
 
 =head2 RATIONALE
 
-I wrote this module because several times I have needed a list of all builtin functions in Perl, and couldn't find an easy way to get it.
+I wrote this module because several times I have needed a list of all builtin functions in Perl, and couldn't find an easy way to get it. Then Father Chrysostomos pointed me towards L<B::Keywords>. You should probably use that.
+
+=head2 SEE ALSO
+
+L<B::Keywords>
+
+=head2 CONTRIBUTORS
+
+John D Jones III, Father Chrysostomos
 
 =head1 AUTHOR
 

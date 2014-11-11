@@ -5,6 +5,9 @@ use Pod::Functions '%Type';
 
 #ABSTRACT: A list of all Perl 5 built functions
 
+=for HTML <a href="https://travis-ci.org/sillymoose/Perl-Builtins"><img src="https://travis-ci.org/sillymoose/Perl-Builtins.svg?branch=master"></a>
+<a href='https://coveralls.io/r/sillymoose/Perl-Builtins'><img src='https://coveralls.io/repos/sillymoose/Perl-Builtins/badge.png' alt='Coverage Status' /></a>
+
 =head2 SYNOPSIS
 
     use Perl::Builtins;

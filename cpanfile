@@ -1,8 +1,10 @@
-requires "strict" => "0";
+requires "Pod::Functions" => "0";
+requires "perl" => "5.008";
 requires "warnings" => "0";
 
 on 'test' => sub {
   requires "Test::More" => "0";
+  requires "strict" => "0";
 };
 
 on 'configure' => sub {
