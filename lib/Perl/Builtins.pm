@@ -1,6 +1,8 @@
-use 5.008;
-use warnings;
 package Perl::Builtins;
+
+use 5.008;
+use strict;
+use warnings;
 use Pod::Functions '%Type';
 
 #ABSTRACT: A list of all Perl 5 built functions
