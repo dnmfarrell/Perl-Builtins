@@ -1,3 +1,6 @@
+use FindBin;
+use lib "$FindBin::Bin/../lib";
+
 use strict;
 use warnings;
 use Test::More tests => 5; # done testing doesn't work on Perl v5.8?
