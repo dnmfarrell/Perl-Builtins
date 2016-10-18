@@ -18,7 +18,7 @@ use Pod::Functions '%Type';
     my @builtin_functions = Perl::Builtins::list;
 
     # get an arrayref instead
-    my $builtin_functions = Per::Builts::list;
+    my $builtin_functions = Per::Builtins::list;
 
 =head2 DESCRIPTION
 
